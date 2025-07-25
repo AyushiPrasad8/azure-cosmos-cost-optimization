@@ -69,7 +69,7 @@ Additional benefits:
 - Faster queries on Cosmos DB.
 
 
-##Summary of Flow
+## Summary of Flow
 1. API Call → Cosmos DB → Returns result if < 3 months.
 
 2. If not found → Calls Cold Fetch Function.
@@ -100,8 +100,8 @@ Additional benefits:
 3. Deploy Archive Function:
    ```bash
    az functionapp deployment source config-zip \
-  --resource-group your-rg \
-  --name archiveFunctionApp \
-  --src ../src/archive_trigger_function.zip
+   --resource-group your-rg \
+   --name archiveFunctionApp \
+   --src ../src/archive_trigger_function.zip
 
 
